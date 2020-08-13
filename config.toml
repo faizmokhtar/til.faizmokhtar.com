@@ -2,8 +2,11 @@ baseURL = "https://til.faizmokhtar.com/"
 title = "til."
 languageCode = "en-us"
 theme = "hugo-tailwind-journal"
-pygmentsCodeFences = true
 pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsCodeFencesGuessSyntax = true
+pygmentsOptions = "linenos=5"
+pygmentsStyle = "dracula"
 
 [taxonomies]
     tag = "tags"
@@ -12,13 +15,13 @@ pygmentsUseClasses = true
     posts = "/posts/:year/:month/:title/"
 
 [params]
-    author = "John Doe"
+    author = "Faiz Mokhtar"
     description = "Today I learned!"
     tagline = "Today I learned!"
 
 [languages]
     [languages.en]
-        contentDir = "content/english"
+        contentDir = "content"
         languageCode = "en-us"
         languageName = "🇺🇸 English"
         weight = 1
