@@ -1,3 +1,24 @@
-baseURL = "http://example.org/"
+baseURL = "https://til.faizmokhtar.com/"
+title = "til."
 languageCode = "en-us"
-title = "My New Hugo Site"
+theme = "hugo-tailwind-journal"
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+
+[taxonomies]
+    tag = "tags"
+
+[permalinks]
+    posts = "/posts/:year/:month/:title/"
+
+[params]
+    author = "John Doe"
+    description = "Today I learned!"
+    tagline = "Today I learned!"
+
+[languages]
+    [languages.en]
+        contentDir = "content/english"
+        languageCode = "en-us"
+        languageName = "🇺🇸 English"
+        weight = 1
