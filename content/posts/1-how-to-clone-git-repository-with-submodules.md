@@ -13,12 +13,12 @@ If you haven't cloned the repository yet, you can use `--recurse-submodules` opt
 $ git clone --recurse-submodules https://github.com/sample/sample-repo.git
 ````
 
-Otherwise, If you already cloned the project then you can use the following option:
+Otherwise, If you already cloned the project then you can use the following command. Run the command inside your git repository.
 
 ````
-git submodule update --init --recursive
+$ git submodule update --init --recursive
 ````
 
-This will initialize, fetch and checkout any nested submodules. That's it.
+This will initialize, fetch and checkout any nested submodules for the repository. That's it.
 
 [1]: <https://git-scm.com/book/en/v2/Git-Tools-Submodules>
