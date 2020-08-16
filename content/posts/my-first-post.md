@@ -8,13 +8,13 @@ comments: true
 ---
 Today I learned how to git clone a repository that has [git submodules][1] inside of it. I realized that when I cloned a project it will clone the parent repo but the submodules will be empty. Here are the steps on how to clone it properly.
 
-If I haven't cloned the project yet, I can use `--recurse-submodules` option:
+If you haven't cloned the repository yet, you can use `--recurse-submodules` option:
 
 ````
 $ git clone --recurse-submodules https://github.com/sample/sample-repo.git
 ````
 
-Otherwise, If I already cloned the project I can use the following options:
+Otherwise, If you already cloned the project then you can use the following option:
 
 ````
 git submodule update --init --recursive
