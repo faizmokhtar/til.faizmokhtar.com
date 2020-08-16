@@ -5,7 +5,7 @@ theme = "hugo-tailwind-journal"
 pygmentsUseClasses = true
 pygmentsCodeFences = true
 pygmentsCodeFencesGuessSyntax = true
-pygmentsOptions = "linenos=5"
+pygmentsOptions = "linenos=1"
 pygmentsStyle = "dracula"
 
 [taxonomies]
