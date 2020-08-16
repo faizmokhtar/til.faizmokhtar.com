@@ -11,9 +11,6 @@ pygmentsStyle = "dracula"
 [taxonomies]
     tag = "tags"
 
-[permalinks]
-    posts = "/posts/:year/:month/:title/"
-
 [params]
     author = "Faiz Mokhtar"
     description = "Today I learned!"

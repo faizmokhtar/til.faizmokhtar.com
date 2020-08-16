@@ -21,4 +21,4 @@ git submodule update --init --recursive
 
 This will initialize, fetch and checkout any nested submodules. That's it.
 
-\[1]: <https://git-scm.com/book/en/v2/Git-Tools-Submodules>
+[1]: <https://git-scm.com/book/en/v2/Git-Tools-Submodules>
