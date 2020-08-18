@@ -1,6 +1,10 @@
 ---
 title: "#2: How to install latest stable ruby version with rbenv"
 date: 2020-08-18T03:25:27.391Z
+categories:
+  - ""
+tags:
+  - ruby
 comments: true
 ---
 Today I learned a simple solution to grab the latest stable [ruby][2] version with [rbenv][1]. If you are using [rbenv][1] to maintain your ruby versions but couldn't be bothered to keep track of the releases and just want a stable version, simply paste the following command in your terminal:
