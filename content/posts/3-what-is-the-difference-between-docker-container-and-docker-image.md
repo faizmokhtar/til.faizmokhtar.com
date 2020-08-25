@@ -21,7 +21,7 @@ and to see the container that's currently running, you can run:
 $~ docker ps
 ```
 
-or if you want to see the list of available containers
+or if you want to see the list of available containers, run:
 ```
 $~ docker ps -a
 ```
