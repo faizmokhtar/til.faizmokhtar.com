@@ -1,5 +1,5 @@
 ---
-title: How to install latest node version with nvm
+title: "#4: How to install latest node version with nvm"
 date: 2020-08-26T10:14:27.128Z
 comments: true
 ---
