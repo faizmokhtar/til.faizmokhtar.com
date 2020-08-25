@@ -7,7 +7,7 @@ tags:
   - docker
 comments: true
 ---
-Today I learned the difference between **image** and **container** in Docker. An **image** is a template that can be used to create a container while **container** is the instances of said Docker images. The container is the one that runs your application.
+Today I learned the difference between **image** and **container** in [Docker][1]. An **image** is a template that can be used to create a container while **container** is the instances of said Docker images. The container is the one that runs your application.
 
 To explain it in *cake* term, **image** is the recipe of the cake and **container** is the cake itself. You can create multiple cakes based on the same recipe.
 
@@ -27,3 +27,9 @@ $~ docker ps -a
 ```
 
 That's it. 🎂
+
+**References:**
+1. https://stackoverflow.com/questions/23735149/what-is-the-difference-between-a-docker-image-and-a-container
+
+
+[1]:https://www.docker.com/resources/what-container
