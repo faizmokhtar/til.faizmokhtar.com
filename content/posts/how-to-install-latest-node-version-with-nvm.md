@@ -1,6 +1,11 @@
 ---
 title: "#4: How to install latest node version with nvm"
 date: 2020-08-26T10:14:27.128Z
+categories:
+  - ""
+tags:
+  - tools
+  - node
 comments: true
 ---
 Today I learned how to install or update my [Node.js][2] version to the latest stable version with [nvm][1]. 
