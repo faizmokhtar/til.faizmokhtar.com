@@ -8,7 +8,7 @@ tags:
   - xcode
 comments: true
 ---
-I learn a command from my senior, Joseph this week that can print all available build settings available in your Xcode project. 
+I learned a command from my senior(Joseph) this week that can print all available build settings available in your Xcode project. 
 
 This is super helpful when you have to write a custom run script or when you have to edit a 3rd party library install script (like what I experienced this week 😭)
 
