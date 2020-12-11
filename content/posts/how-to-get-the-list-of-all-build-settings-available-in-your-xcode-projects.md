@@ -12,19 +12,19 @@ I learned a command from my senior(Joseph) this week that can print all availabl
 
 This is super helpful when you have to write a custom run script or when you have to edit a 3rd party library install script (like what I experienced this week 😭)
 
-Anyway to print the list, run the following command in your project root:
+Anyway, to print the list run the following command in your project root:
 
 ````
 xcodebuild -showBuildSettings -project SampleApp.xcodeproj
 ````
 
-Or if you're using workspace, use the following. `-scheme` have to be define for workspace.
+Or if you're using workspace, use the following command. The `-scheme` have to be defined for it to work.
 
 ````
 xcodebuild -showBuildSettings -workspace SampleApp.xcworkspace -scheme 'SampleApp'
-`````
+````
 
-If you want build settings that's specific to certain configuration, ie: `Release` or `Debug`
+If you want the list of build settings that are specific to a certain configuration, ie: `Release` or `Debug`
 
 ````
 xcodebuild -showBuildSettings -workspace SampleApp.xcworkspace -scheme 'SampleApp' -configuration Release
