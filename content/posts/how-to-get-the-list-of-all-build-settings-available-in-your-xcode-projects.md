@@ -1,6 +1,11 @@
 ---
-title: How to get the list of all build settings available in your Xcode projects
+title: "#8 How to get the list of all build settings available in your Xcode projects"
 date: 2020-12-11T07:57:35.296Z
+categories:
+  - tools
+tags:
+  - tools
+  - xcode
 comments: true
 ---
 I learn a command from my senior, Joseph this week that can print all available build settings available in your Xcode project. 
