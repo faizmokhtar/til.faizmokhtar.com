@@ -11,7 +11,7 @@ Assuming the given situation:
 
 - You work on a large project that has an extensive git commits history and a lot of files
 - You need to debug a certain issue that was caused by a certain file
-- You need to know the commit history for that certain code in a certain file
+- You look at the commits history to see which commit is causing the issue but going through it one by one is like finding a needle in a haystack
 
 Well, you're in luck. You can use the following `git log` command
 
